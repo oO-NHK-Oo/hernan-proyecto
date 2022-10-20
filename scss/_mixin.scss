@@ -1,0 +1,11 @@
+@mixin flex($contenido, $item) {
+    display: flex;
+    justify-content: $contenido;
+    grid-area: $item;
+}
+
+
+@mixin titulo ($center, $padd){
+    text-align: $center;
+    padding: $padd;
+}
